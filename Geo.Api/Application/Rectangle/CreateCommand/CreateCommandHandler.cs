@@ -24,7 +24,7 @@ public class CreateCommandHandler : ICommandHandler<CreateCommand, CreateRespons
             throw new ValidationException(result);
         }
 
-        var polygon = request.MapToGeometry();
+        var polygon = request.MapToPolygon();
 
         var rectangle = new Entities.Rectangle
         {
