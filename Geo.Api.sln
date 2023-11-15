@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geo.Api", "Geo.Api\Geo.Api.csproj", "{B3A9E3C1-ABFF-4FF6-820E-FF3CD0EFEA55}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{64BD41EB-F189-4710-9715-EE5A71F3CD1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B3A9E3C1-ABFF-4FF6-820E-FF3CD0EFEA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3A9E3C1-ABFF-4FF6-820E-FF3CD0EFEA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3A9E3C1-ABFF-4FF6-820E-FF3CD0EFEA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BD41EB-F189-4710-9715-EE5A71F3CD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BD41EB-F189-4710-9715-EE5A71F3CD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BD41EB-F189-4710-9715-EE5A71F3CD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BD41EB-F189-4710-9715-EE5A71F3CD1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
