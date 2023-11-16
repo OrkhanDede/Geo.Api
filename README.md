@@ -15,25 +15,25 @@ Web-based API for searching/matching each coordinate passed as input against spe
 Clone the project
 
 ```bash
-  git clone https://github.com/OrkhanDede/Geo.Api
+git clone https://github.com/OrkhanDede/Geo.Api
 ```
 
 Go to the project directory
 
 ```bash
-  cd Geo.Api/Geo.Api
+cd Geo.Api/Geo.Api
 ```
 
 Build the Project
 
 ```bash
-  dotnet build
+dotnet build
 ```
 
 Run the Application
 
 ```bash
-  dotnet run
+dotnet run
 ```
 
 
@@ -42,13 +42,13 @@ Run the Application
 Docker Pull Command
 
 ```bash
-  docker pull myiddock/geometry-application
+docker pull myiddock/geometry-application
 ```
 
 Run the Application
 
 ```bash
-  docker run -d -p 8088:80 --name geometry-application myiddock/geometry-application
+docker run -d -p 8088:80 --name geometry-application myiddock/geometry-application
 ```
 
 
