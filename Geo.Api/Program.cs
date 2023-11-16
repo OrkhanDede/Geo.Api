@@ -23,23 +23,17 @@ using (var scope = app.Services.CreateScope())
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
-//app.UseHttpsRedirection();
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseAuthorization();
 app.UseCustomExceptionHandler();
 
 app.MapControllers();
 
-app.MapGet("/", a => Task.Run(() =>
-{
-    a.Response.Redirect("/swagger/index.html");
-}));
+app.MapGet("/", a => Task.Run(() => { a.Response.Redirect("/swagger/index.html"); }));
 
 
 app.Run();
