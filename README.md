@@ -39,22 +39,16 @@ Run the Application
 
 ## Run Docker container
 
-Clone the project
+Docker Pull Command
 
 ```bash
-  git clone https://github.com/OrkhanDede/Geo.Api
-```
-
-Go to the project directory
-
-```bash
-  cd Geo.Api
+  docker pull myiddock/geometry-application
 ```
 
 Run the Application
 
 ```bash
-  docker compose up
+  docker run -d -p 8088:80 --name geometry-application myiddock/geometry-application
 ```
 
 
